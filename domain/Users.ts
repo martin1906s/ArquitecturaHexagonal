@@ -22,4 +22,8 @@ export class Users {
         this.dateOfBirth = dateOfBirth;
     }
 
+    public nameAndMail(){
+        return this.name.value + ' ' + this.mail.value;
+    }
+
 }
