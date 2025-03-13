@@ -1,4 +1,4 @@
-export class UserDateOfBrith {
+export class UserDateCreate {
     value: Date;
     constructor(value: Date) {
         this.value = value;
