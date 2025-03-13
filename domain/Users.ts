@@ -1,4 +1,4 @@
-import { UserDateOfBrith } from "./UserDateOfBrith";
+import { UserDateCreate } from "./UserDateCreate";
 import { UserId } from "./UserId";
 import { UserLastName } from "./UserLastName";
 import { UserMail } from "./UserMail";
@@ -11,15 +11,15 @@ export class Users {
     lastName: UserLastName;
     mail: UserMail;
     telephone: UserTelephone;
-    dateOfBirth: UserDateOfBrith;
+    dateCreate: UserDateCreate;
 
-    constructor(id: UserId, name: UserName, lastName: UserLastName, mail: UserMail, telephone: UserTelephone, dateOfBirth: UserDateOfBrith) {
+    constructor(id: UserId, name: UserName, lastName: UserLastName, mail: UserMail, telephone: UserTelephone, dateCreate: UserDateCreate) {
         this.id = id;
         this.name = name;
         this.lastName = lastName;
         this.mail = mail;
         this.telephone = telephone;
-        this.dateOfBirth = dateOfBirth;
+        this.dateCreate = dateCreate;
     }
 
     public nameAndMail(){
